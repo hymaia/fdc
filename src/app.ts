@@ -1,20 +1,4 @@
-console.log("Hello froom Hymaia");
-
-function addGreenBackgroundToTestElement(): void {
-    // Get the element by ID
-    const element = document.getElementById("test");
-    
-    // Check if the element exists
-    if (element) {
-        // Add a green background
-        element.style.backgroundColor = "green";
-    } else {
-        console.error('Element with ID "test" not found');
-    }
-}
-
-// Call the function to apply the green background
-addGreenBackgroundToTestElement();
+console.log("Hello from Hymaia");
 
 
 import { NeatConfig, NeatGradient } from "@firecms/neat";
@@ -72,8 +56,6 @@ if (gradientElement) {
 } else {
     console.error('Element with id "gradient" not found or is not a canvas element');
 }
-
-
 /**
  * Creates a new HTML element and appends it to the specified parent element.
  * @param {string} tag - The type of element to create (e.g., 'div', 'p', 'span').
@@ -108,3 +90,5 @@ function createElement(tag: string, attributes: Record<string, string>, textCont
 // Example usage:
 // This will create a <div id="newDiv" class="myClass">Hello, World!</div> inside an element with id "container"
 createElement('div', { id: 'newDiv', class: 'myClass' }, 'Hello, World!', '#containerdiv');
+
+

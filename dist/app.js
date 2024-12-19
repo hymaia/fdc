@@ -604,7 +604,6 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.config = void 0;
-console.log("wesh");
 function addGreenBackgroundToTestElement() {
     // Get the element by ID
     var element = document.getElementById("test");
