@@ -7,7 +7,7 @@ import { NeatConfig, NeatGradient } from "@firecms/neat";
 export const config: NeatConfig = {
     colors: [
         {
-            color: "#EFD8FF",
+            color: "#f44a66", //light purple
             enabled: true
         },
         {
@@ -15,15 +15,15 @@ export const config: NeatConfig = {
             enabled: false
         },
         {
-            color: "#EFC69B",
+            color: "#fff2b3", //peche --> gold
             enabled: true
         },
         {
-            color: "#FB6376",
+            color: "#360717", //rose --> pourpre
             enabled: true
         },
         {
-            color: "#f5e1e5",
+            color: "#f5e1e5", //rose pale
             enabled: false
         }
     ],
