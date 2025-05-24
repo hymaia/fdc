@@ -1,4 +1,4 @@
-console.log("Hello from Hymaia");
+console.log("Hello2 from Hymaia");
 
 
 import { NeatConfig, NeatGradient } from "@firecms/neat";
@@ -11,7 +11,7 @@ export const config: NeatConfig = {
             enabled: true
         },
         {
-            color: "#472749",
+            color: "#360717",//pourpre
             enabled: false
         },
         {
@@ -37,7 +37,7 @@ export const config: NeatConfig = {
     highlights: 2, // from 0 to 10
     wireframe: false,
     colorBlending: 6, // from 0 to 10
-    backgroundColor: "#003FFF",
+    backgroundColor: "#360717",
     backgroundAlpha: 1 // from 0 to 1
 };
 
