@@ -7,7 +7,7 @@ import { NeatConfig, NeatGradient } from "@firecms/neat";
 export const config: NeatConfig = {
     colors: [
         {
-            color: "#f44a66", //light purple
+            color: "#360717", //light purple
             enabled: true
         },
         {
