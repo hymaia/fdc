@@ -1,4 +1,4 @@
-console.log("Hello2 from Hymaia");
+
 
 
 import { NeatConfig, NeatGradient } from "@firecms/neat";
@@ -94,9 +94,4 @@ function createElement(tag: string, attributes: Record<string, string>, textCont
         console.error(`Parent element with selector "${parentSelector}" not found.`);
     }
 }
-
-// Example usage:
-// This will create a <div id="newDiv" class="myClass">Hello, World!</div> inside an element with id "container"
-createElement('div', { id: 'newDiv', class: 'myClass' }, 'Hello, World!', '#containerdiv');
-
 
